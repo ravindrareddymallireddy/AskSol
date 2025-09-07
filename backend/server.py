@@ -4,8 +4,8 @@ from flask_cors import CORS
 import re
 import pandas as pd
 from difflib import SequenceMatcher
-from backend.preprocessing import ensure_nltk_data
-from backend.retrieval import Retriever, fuzzy_score  # uses SequenceMatcher-based fuzzy_score
+from preprocessing import ensure_nltk_data
+from retrieval import Retriever, fuzzy_score  # uses SequenceMatcher-based fuzzy_score
 
 app = Flask(__name__)
 CORS(app)

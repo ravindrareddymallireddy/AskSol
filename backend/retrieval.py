@@ -1,7 +1,7 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from difflib import SequenceMatcher
-from backend.preprocessing import preprocess, expand_with_wordnet
+from preprocessing import preprocess, expand_with_wordnet
 
 def fuzzy_score(a,b):
     return SequenceMatcher(None,a,b).ratio()

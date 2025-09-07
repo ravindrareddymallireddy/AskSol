@@ -49,7 +49,7 @@ export default function App() {
     <div className="page">
       <div className="card">
         <header className="card-header">
-          <h1>CollegeBot</h1>
+          <h1>AskSol</h1>
           <h2>Ask about courses, admissions, fees and campus life</h2>
         </header>
 
