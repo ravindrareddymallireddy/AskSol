@@ -1,17 +1,5 @@
 # AskSol
 
-Got it 👍 — let’s keep it **very simple** so you can run the chatbot without worrying about virtual environments.
-Here’s a clean `README.md` you can use:
-
----
-
-# College Chatbot — README
-
-This is a simple chatbot that answers student queries about courses, admissions, fees, and campus life.
-It uses a CSV dataset, Python (Flask + scikit-learn + NLTK), and an optional React frontend.
-
----
-
 ## 🖥️ Requirements
 
 * Python 3.8 or later installed.
