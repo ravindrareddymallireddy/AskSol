@@ -86,7 +86,6 @@ def detect_course_in_query(query):
     best_score = 0.0
     for cname in course_names_normal:
         if cname in q:
-            # strong hit
             return cname
         # fuzzy fallback - partial similarity
         s = similar(q, cname)
